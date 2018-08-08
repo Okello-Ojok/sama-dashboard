@@ -19,4 +19,6 @@ var dataSchema = new mongoose.Schema({
   date: String
 });
 
-//mongoose.model('Data', 'dataSchema', 'sama');
+//var dataModel = mongoose.model('Data', dataSchema, 'sama');
+//module.exports dataModel;
+mongoose.model('Data', dataSchema, 'sama');

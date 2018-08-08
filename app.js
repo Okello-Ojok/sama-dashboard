@@ -1,8 +1,10 @@
 var createError = require('http-errors');
 var express = require('express');
+var mongoose = require('mongoose');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+
 require('./app_api/model/db');
 
 var indexRouter = require('./app_server/routes/index');
