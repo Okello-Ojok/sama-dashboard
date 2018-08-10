@@ -6,6 +6,8 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "chart.js": "^2.7.2",
     "cookie-parser": "~1.4.3",
     "d3": "^5.5.0",
     "d3-queue": "^3.0.7",
@@ -14,6 +16,7 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "method-override": "^3.0.0",
     "mongoose": "^5.2.7",
     "morgan": "~1.9.0",
     "queue": "^4.4.2",

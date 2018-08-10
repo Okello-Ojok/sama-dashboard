@@ -15,10 +15,10 @@ var request = require('request');
 
 module.exports.getGraphs = function (req, res, next) {
   Graphs
-    .find()
+    .find().limit(6)
     //.select('name')
     .exec(function (err, main) {
       //sendJsonResponse(res, 200, main)
-      return res.end(JSON.stringify(main));
+      return res.json(main);
     })
 }
