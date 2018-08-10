@@ -2,6 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 
 var d3 = require('d3');
+var dc = require('dc');
 var queue =require('queue');
 
 var mongoose = require('mongoose');
