@@ -1,8 +1,11 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+.chart-container {
+  width: 700px;
+  height: 550px;
+  font-size: 5px !important;
 }
 
-a {
-  color: #00B7FF;
+nav.sidebar{
+  min-width: 250px;
+  max-width: 250px;
 }

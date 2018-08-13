@@ -9,17 +9,5 @@ var ctrlMain = require('../controllers/main');
 //Get the graphs
 router.get('/main', ctrlMain.getGraphs);
 
-//module.exports = router;
-//Try
-
-
-
-
-
-
-
-
-
-
 
 module.exports = router;
